@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D011329220EF35970087786C /* Archives */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D011329320EF35970087786C /* Build configuration list for PBXAggregateTarget "Archives" */;
+			buildPhases = (
+				D011329620EF35AF0087786C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Archives;
+			productName = Archives;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D011326820EC4AA00087786C /* NorikaeOpenAPIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D011326620EC4AA00087786C /* NorikaeOpenAPIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D011327020EC4D7C0087786C /* NOAStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011326F20EC4D7C0087786C /* NOAStation.swift */; };
+		D011327320EC54480087786C /* NOALine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011327220EC54480087786C /* NOALine.swift */; };
+		D011327820EC60990087786C /* NOAParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011327720EC60990087786C /* NOAParameters.swift */; };
+		D011327C20EC68E60087786C /* NOARouteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011327B20EC68E60087786C /* NOARouteInfo.swift */; };
+		D011327E20EC84080087786C /* NOARoutePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011327D20EC84080087786C /* NOARoutePath.swift */; };
+		D011328120ECBDCA0087786C /* NOADataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011328020ECBDCA0087786C /* NOADataGetter.swift */; };
+		D011328320EDD9AD0087786C /* NOAPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011328220EDD9AD0087786C /* NOAPrint.swift */; };
+		D011328520EDFE1F0087786C /* NOARouteDataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011328420EDFE1F0087786C /* NOARouteDataGetter.swift */; };
+		D011328820EE03DB0087786C /* NOARoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011328720EE03DB0087786C /* NOARoute.swift */; };
+		D011328A20EEF49A0087786C /* NOAColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011328920EEF49A0087786C /* NOAColorExtension.swift */; };
+		D011328C20EEFB610087786C /* NOALatLonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011328B20EEFB610087786C /* NOALatLonUtility.swift */; };
+		D011328F20EF01BA0087786C /* NorikaeOpenAPIFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011328E20EF01BA0087786C /* NorikaeOpenAPIFramework.swift */; };
+		D011329120EF022E0087786C /* NOAForDisplayPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D011329020EF022E0087786C /* NOAForDisplayPath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D011326320EC4AA00087786C /* NorikaeOpenAPIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NorikaeOpenAPIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D011326620EC4AA00087786C /* NorikaeOpenAPIFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NorikaeOpenAPIFramework.h; sourceTree = "<group>"; };
+		D011326720EC4AA00087786C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D011326F20EC4D7C0087786C /* NOAStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAStation.swift; sourceTree = "<group>"; };
+		D011327220EC54480087786C /* NOALine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOALine.swift; sourceTree = "<group>"; };
+		D011327720EC60990087786C /* NOAParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAParameters.swift; sourceTree = "<group>"; };
+		D011327B20EC68E60087786C /* NOARouteInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOARouteInfo.swift; sourceTree = "<group>"; };
+		D011327D20EC84080087786C /* NOARoutePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOARoutePath.swift; sourceTree = "<group>"; };
+		D011328020ECBDCA0087786C /* NOADataGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOADataGetter.swift; sourceTree = "<group>"; };
+		D011328220EDD9AD0087786C /* NOAPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAPrint.swift; sourceTree = "<group>"; };
+		D011328420EDFE1F0087786C /* NOARouteDataGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOARouteDataGetter.swift; sourceTree = "<group>"; };
+		D011328720EE03DB0087786C /* NOARoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOARoute.swift; sourceTree = "<group>"; };
+		D011328920EEF49A0087786C /* NOAColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAColorExtension.swift; sourceTree = "<group>"; };
+		D011328B20EEFB610087786C /* NOALatLonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOALatLonUtility.swift; sourceTree = "<group>"; };
+		D011328E20EF01BA0087786C /* NorikaeOpenAPIFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorikaeOpenAPIFramework.swift; sourceTree = "<group>"; };
+		D011329020EF022E0087786C /* NOAForDisplayPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOAForDisplayPath.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D011325F20EC4AA00087786C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D011325920EC4AA00087786C = {
+			isa = PBXGroup;
+			children = (
+				D011326520EC4AA00087786C /* NorikaeOpenAPIFramework */,
+				D011326420EC4AA00087786C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D011326420EC4AA00087786C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D011326320EC4AA00087786C /* NorikaeOpenAPIFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D011326520EC4AA00087786C /* NorikaeOpenAPIFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D011327F20ECBDA40087786C /* Model */,
+				D011327620EC601D0087786C /* Common */,
+				D011326E20EC4BB00087786C /* Data */,
+				D011326620EC4AA00087786C /* NorikaeOpenAPIFramework.h */,
+				D011326720EC4AA00087786C /* Info.plist */,
+				D011328E20EF01BA0087786C /* NorikaeOpenAPIFramework.swift */,
+			);
+			path = NorikaeOpenAPIFramework;
+			sourceTree = "<group>";
+		};
+		D011326E20EC4BB00087786C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D011328D20EF01350087786C /* NOAForDisplayPaths */,
+				D011328620EE03C20087786C /* NOARoute */,
+				D011326F20EC4D7C0087786C /* NOAStation.swift */,
+				D011327220EC54480087786C /* NOALine.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D011327620EC601D0087786C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D011327720EC60990087786C /* NOAParameters.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D011327F20ECBDA40087786C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D011328020ECBDCA0087786C /* NOADataGetter.swift */,
+				D011328220EDD9AD0087786C /* NOAPrint.swift */,
+				D011328420EDFE1F0087786C /* NOARouteDataGetter.swift */,
+				D011328920EEF49A0087786C /* NOAColorExtension.swift */,
+				D011328B20EEFB610087786C /* NOALatLonUtility.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D011328620EE03C20087786C /* NOARoute */ = {
+			isa = PBXGroup;
+			children = (
+				D011327B20EC68E60087786C /* NOARouteInfo.swift */,
+				D011327D20EC84080087786C /* NOARoutePath.swift */,
+				D011328720EE03DB0087786C /* NOARoute.swift */,
+			);
+			path = NOARoute;
+			sourceTree = "<group>";
+		};
+		D011328D20EF01350087786C /* NOAForDisplayPaths */ = {
+			isa = PBXGroup;
+			children = (
+				D011329020EF022E0087786C /* NOAForDisplayPath.swift */,
+			);
+			path = NOAForDisplayPaths;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D011326020EC4AA00087786C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D011326820EC4AA00087786C /* NorikaeOpenAPIFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D011326220EC4AA00087786C /* NorikaeOpenAPIFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D011326B20EC4AA00087786C /* Build configuration list for PBXNativeTarget "NorikaeOpenAPIFramework" */;
+			buildPhases = (
+				D011325E20EC4AA00087786C /* Sources */,
+				D011325F20EC4AA00087786C /* Frameworks */,
+				D011326020EC4AA00087786C /* Headers */,
+				D011326120EC4AA00087786C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorikaeOpenAPIFramework;
+			productName = NorikaeOpenAPIFramework;
+			productReference = D011326320EC4AA00087786C /* NorikaeOpenAPIFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D011325A20EC4AA00087786C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MasamiYamate;
+				TargetAttributes = {
+					D011326220EC4AA00087786C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					D011329220EF35970087786C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D011325D20EC4AA00087786C /* Build configuration list for PBXProject "NorikaeOpenAPIFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D011325920EC4AA00087786C;
+			productRefGroup = D011326420EC4AA00087786C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D011326220EC4AA00087786C /* NorikaeOpenAPIFramework */,
+				D011329220EF35970087786C /* Archives */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D011326120EC4AA00087786C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D011329620EF35AF0087786C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D011325E20EC4AA00087786C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D011328A20EEF49A0087786C /* NOAColorExtension.swift in Sources */,
+				D011327C20EC68E60087786C /* NOARouteInfo.swift in Sources */,
+				D011328120ECBDCA0087786C /* NOADataGetter.swift in Sources */,
+				D011327E20EC84080087786C /* NOARoutePath.swift in Sources */,
+				D011327020EC4D7C0087786C /* NOAStation.swift in Sources */,
+				D011329120EF022E0087786C /* NOAForDisplayPath.swift in Sources */,
+				D011328320EDD9AD0087786C /* NOAPrint.swift in Sources */,
+				D011328520EDFE1F0087786C /* NOARouteDataGetter.swift in Sources */,
+				D011328F20EF01BA0087786C /* NorikaeOpenAPIFramework.swift in Sources */,
+				D011327320EC54480087786C /* NOALine.swift in Sources */,
+				D011328820EE03DB0087786C /* NOARoute.swift in Sources */,
+				D011327820EC60990087786C /* NOAParameters.swift in Sources */,
+				D011328C20EEFB610087786C /* NOALatLonUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D011326920EC4AA00087786C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D011326A20EC4AA00087786C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D011326C20EC4AA00087786C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NorikaeOpenAPIFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NorikaeOpenAPIFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D011326D20EC4AA00087786C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NorikaeOpenAPIFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NorikaeOpenAPIFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D011329420EF35970087786C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T5699CNU5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D011329520EF35970087786C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T5699CNU5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D011325D20EC4AA00087786C /* Build configuration list for PBXProject "NorikaeOpenAPIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D011326920EC4AA00087786C /* Debug */,
+				D011326A20EC4AA00087786C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D011326B20EC4AA00087786C /* Build configuration list for PBXNativeTarget "NorikaeOpenAPIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D011326C20EC4AA00087786C /* Debug */,
+				D011326D20EC4AA00087786C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D011329320EF35970087786C /* Build configuration list for PBXAggregateTarget "Archives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D011329420EF35970087786C /* Debug */,
+				D011329520EF35970087786C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D011325A20EC4AA00087786C /* Project object */;
+}

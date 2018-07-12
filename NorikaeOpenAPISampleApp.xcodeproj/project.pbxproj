@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04752E420EF3ECB00F5D424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04752E320EF3ECB00F5D424 /* AppDelegate.swift */; };
+		D04752E920EF3ECB00F5D424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04752E720EF3ECB00F5D424 /* Main.storyboard */; };
+		D04752EB20EF3EDF00F5D424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04752EA20EF3EDF00F5D424 /* Assets.xcassets */; };
+		D04752EE20EF3EDF00F5D424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04752EC20EF3EDF00F5D424 /* LaunchScreen.storyboard */; };
+		D04752F920EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04752F820EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests.swift */; };
+		D047530B20EF438100F5D424 /* DepartureSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047530A20EF438100F5D424 /* DepartureSearchViewController.swift */; };
+		D047531120EF45CC00F5D424 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047531020EF45CC00F5D424 /* Parameters.swift */; };
+		D047531720EF4C7300F5D424 /* ArrivalSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047531620EF4C7300F5D424 /* ArrivalSearchViewController.swift */; };
+		D047531A20EF521500F5D424 /* NorikaeCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047531920EF521500F5D424 /* NorikaeCustomTableViewCell.swift */; };
+		D047531C20EF53A600F5D424 /* RouteResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047531B20EF53A600F5D424 /* RouteResultViewController.swift */; };
+		D07CCAE420F6E545006D4AF6 /* NorikaeOpenAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07CCAE320F6E545006D4AF6 /* NorikaeOpenAPIFramework.framework */; };
+		D07CCAE520F6E545006D4AF6 /* NorikaeOpenAPIFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D07CCAE320F6E545006D4AF6 /* NorikaeOpenAPIFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D04752F520EF3EDF00F5D424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04752D820EF3ECA00F5D424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04752DF20EF3ECA00F5D424;
+			remoteInfo = NorikaeOpenAPISampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D047530720EF433500F5D424 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D07CCAE520F6E545006D4AF6 /* NorikaeOpenAPIFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D04752E020EF3ECA00F5D424 /* NorikaeOpenAPISampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorikaeOpenAPISampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04752E320EF3ECB00F5D424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D04752E820EF3ECB00F5D424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D04752EA20EF3EDF00F5D424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D04752ED20EF3EDF00F5D424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D04752EF20EF3EDF00F5D424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04752F420EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorikaeOpenAPISampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04752F820EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorikaeOpenAPISampleAppUITests.swift; sourceTree = "<group>"; };
+		D04752FA20EF3EDF00F5D424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D047530A20EF438100F5D424 /* DepartureSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureSearchViewController.swift; sourceTree = "<group>"; };
+		D047531020EF45CC00F5D424 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		D047531620EF4C7300F5D424 /* ArrivalSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalSearchViewController.swift; sourceTree = "<group>"; };
+		D047531920EF521500F5D424 /* NorikaeCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorikaeCustomTableViewCell.swift; sourceTree = "<group>"; };
+		D047531B20EF53A600F5D424 /* RouteResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteResultViewController.swift; sourceTree = "<group>"; };
+		D07CCAE320F6E545006D4AF6 /* NorikaeOpenAPIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NorikaeOpenAPIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04752DD20EF3ECA00F5D424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07CCAE420F6E545006D4AF6 /* NorikaeOpenAPIFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04752F120EF3EDF00F5D424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04752D720EF3ECA00F5D424 = {
+			isa = PBXGroup;
+			children = (
+				D07CCAE320F6E545006D4AF6 /* NorikaeOpenAPIFramework.framework */,
+				D04752E220EF3ECA00F5D424 /* NorikaeOpenAPISampleApp */,
+				D04752F720EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests */,
+				D04752E120EF3ECA00F5D424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04752E120EF3ECA00F5D424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04752E020EF3ECA00F5D424 /* NorikaeOpenAPISampleApp.app */,
+				D04752F420EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04752E220EF3ECA00F5D424 /* NorikaeOpenAPISampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				D047531820EF513200F5D424 /* Cell */,
+				D047530920EF436200F5D424 /* View */,
+				D04752E320EF3ECB00F5D424 /* AppDelegate.swift */,
+				D04752E720EF3ECB00F5D424 /* Main.storyboard */,
+				D04752EA20EF3EDF00F5D424 /* Assets.xcassets */,
+				D04752EC20EF3EDF00F5D424 /* LaunchScreen.storyboard */,
+				D04752EF20EF3EDF00F5D424 /* Info.plist */,
+				D047531020EF45CC00F5D424 /* Parameters.swift */,
+			);
+			path = NorikaeOpenAPISampleApp;
+			sourceTree = "<group>";
+		};
+		D04752F720EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D04752F820EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests.swift */,
+				D04752FA20EF3EDF00F5D424 /* Info.plist */,
+			);
+			path = NorikaeOpenAPISampleAppUITests;
+			sourceTree = "<group>";
+		};
+		D047530920EF436200F5D424 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D047530A20EF438100F5D424 /* DepartureSearchViewController.swift */,
+				D047531620EF4C7300F5D424 /* ArrivalSearchViewController.swift */,
+				D047531B20EF53A600F5D424 /* RouteResultViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D047531820EF513200F5D424 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D047531920EF521500F5D424 /* NorikaeCustomTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04752DF20EF3ECA00F5D424 /* NorikaeOpenAPISampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04752FD20EF3EDF00F5D424 /* Build configuration list for PBXNativeTarget "NorikaeOpenAPISampleApp" */;
+			buildPhases = (
+				D04752DC20EF3ECA00F5D424 /* Sources */,
+				D04752DD20EF3ECA00F5D424 /* Frameworks */,
+				D04752DE20EF3ECA00F5D424 /* Resources */,
+				D047530720EF433500F5D424 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorikaeOpenAPISampleApp;
+			productName = NorikaeOpenAPISampleApp;
+			productReference = D04752E020EF3ECA00F5D424 /* NorikaeOpenAPISampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D04752F320EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D047530020EF3EDF00F5D424 /* Build configuration list for PBXNativeTarget "NorikaeOpenAPISampleAppUITests" */;
+			buildPhases = (
+				D04752F020EF3EDF00F5D424 /* Sources */,
+				D04752F120EF3EDF00F5D424 /* Frameworks */,
+				D04752F220EF3EDF00F5D424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04752F620EF3EDF00F5D424 /* PBXTargetDependency */,
+			);
+			name = NorikaeOpenAPISampleAppUITests;
+			productName = NorikaeOpenAPISampleAppUITests;
+			productReference = D04752F420EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04752D820EF3ECA00F5D424 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MasamiYamate;
+				TargetAttributes = {
+					D04752DF20EF3ECA00F5D424 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D04752F320EF3EDF00F5D424 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D04752DF20EF3ECA00F5D424;
+					};
+				};
+			};
+			buildConfigurationList = D04752DB20EF3ECA00F5D424 /* Build configuration list for PBXProject "NorikaeOpenAPISampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04752D720EF3ECA00F5D424;
+			productRefGroup = D04752E120EF3ECA00F5D424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04752DF20EF3ECA00F5D424 /* NorikaeOpenAPISampleApp */,
+				D04752F320EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04752DE20EF3ECA00F5D424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04752EE20EF3EDF00F5D424 /* LaunchScreen.storyboard in Resources */,
+				D04752EB20EF3EDF00F5D424 /* Assets.xcassets in Resources */,
+				D04752E920EF3ECB00F5D424 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04752F220EF3EDF00F5D424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04752DC20EF3ECA00F5D424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D047530B20EF438100F5D424 /* DepartureSearchViewController.swift in Sources */,
+				D047531C20EF53A600F5D424 /* RouteResultViewController.swift in Sources */,
+				D04752E420EF3ECB00F5D424 /* AppDelegate.swift in Sources */,
+				D047531720EF4C7300F5D424 /* ArrivalSearchViewController.swift in Sources */,
+				D047531120EF45CC00F5D424 /* Parameters.swift in Sources */,
+				D047531A20EF521500F5D424 /* NorikaeCustomTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04752F020EF3EDF00F5D424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04752F920EF3EDF00F5D424 /* NorikaeOpenAPISampleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04752F620EF3EDF00F5D424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04752DF20EF3ECA00F5D424 /* NorikaeOpenAPISampleApp */;
+			targetProxy = D04752F520EF3EDF00F5D424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D04752E720EF3ECB00F5D424 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04752E820EF3ECB00F5D424 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D04752EC20EF3EDF00F5D424 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04752ED20EF3EDF00F5D424 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04752FB20EF3EDF00F5D424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D04752FC20EF3EDF00F5D424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04752FE20EF3EDF00F5D424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NorikaeOpenAPISampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D04752FF20EF3EDF00F5D424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NorikaeOpenAPISampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D047530120EF3EDF00F5D424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T5699CNU5;
+				INFOPLIST_FILE = NorikaeOpenAPISampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NorikaeOpenAPISampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NorikaeOpenAPISampleApp;
+			};
+			name = Debug;
+		};
+		D047530220EF3EDF00F5D424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T5699CNU5;
+				INFOPLIST_FILE = NorikaeOpenAPISampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NorikaeOpenAPISampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NorikaeOpenAPISampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04752DB20EF3ECA00F5D424 /* Build configuration list for PBXProject "NorikaeOpenAPISampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04752FB20EF3EDF00F5D424 /* Debug */,
+				D04752FC20EF3EDF00F5D424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04752FD20EF3EDF00F5D424 /* Build configuration list for PBXNativeTarget "NorikaeOpenAPISampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04752FE20EF3EDF00F5D424 /* Debug */,
+				D04752FF20EF3EDF00F5D424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D047530020EF3EDF00F5D424 /* Build configuration list for PBXNativeTarget "NorikaeOpenAPISampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D047530120EF3EDF00F5D424 /* Debug */,
+				D047530220EF3EDF00F5D424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D04752D820EF3ECA00F5D424 /* Project object */;
+}

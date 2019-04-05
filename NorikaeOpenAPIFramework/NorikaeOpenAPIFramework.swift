@@ -19,14 +19,35 @@ import UIKit
     
     /// Set access Key
     ///
+    /// - Parameter accessKey: Access key string
+    @available(iOS , introduced: 2.0)
+    public func setAt(accessKey: String) {
+        NOAParameters.accessKey = accessKey
+    }
+    
+    /// Set access Key
+    /// deprecated
+    ///
     /// - Parameter key: Access key string
+    @available(iOS , obsoleted: 2.0)
     public func setAccessKey (_ key: String) {
         NOAParameters.accessKey = key
     }
     
     /// Set end point
+    /// deprecated
     ///
     /// - Parameter uri: URI such as a VPS to be bridged
+    @available(iOS , introduced: 2.0)
+    public func setAt(endPoint: String) {
+        NOAParameters.endPoint = endPoint
+    }
+    
+    /// Set end point
+    /// deprecated
+    ///
+    /// - Parameter uri: URI such as a VPS to be bridged
+    @available(iOS , obsoleted: 2.0)
     public func setEndPoint (_ uri: String) {
         NOAParameters.endPoint = uri
     }
@@ -37,6 +58,18 @@ import UIKit
     ///   - keyword: Station name you want to search
     ///   - mode: SearchMode 0...Forward match search 1...Exact match priority search
     /// - Returns: NOAStation Array
+    @available(iOS , introduced: 2.0)
+    public func searchAt (station: String , searchMode mode: Int) -> [NOAStation]? {
+        return NOADataGetter.share.searchStations(_:station, mode:mode)
+    }
+    
+    /// Search by station name
+    ///
+    /// - Parameters:
+    ///   - keyword: Station name you want to search
+    ///   - mode: SearchMode 0...Forward match search 1...Exact match priority search
+    /// - Returns: NOAStation Array
+    @available(iOS , obsoleted: 2.0)
     public func searchStations (_ keyword: String , mode: Int) -> [NOAStation]? {
         return NOADataGetter.share.searchStations(_:keyword, mode:mode)
     }
@@ -47,6 +80,18 @@ import UIKit
     ///   - keyword: Line name you want to search
     ///   - mode: SearchMode 0...Forward match search 1...Exact match priority search
     /// - Returns: NOALine Array
+    @available(iOS , introduced: 2.0)
+    public func searchAt (line: String , searchMode mode: Int) -> [NOALine]? {
+        return NOADataGetter.share.searchLineNames(_:line, mode:mode)
+    }
+    
+    /// Search by line name
+    ///
+    /// - Parameters:
+    ///   - keyword: Line name you want to search
+    ///   - mode: SearchMode 0...Forward match search 1...Exact match priority search
+    /// - Returns: NOALine Array
+    @available(iOS , obsoleted: 2.0)
     public func searchLineNames (_ keyword: String , mode: Int) -> [NOALine]? {
         return NOADataGetter.share.searchLineNames(_:keyword, mode:mode)
     }
@@ -57,6 +102,18 @@ import UIKit
     ///   - keyword: Station name you want to search
     ///   - mode: SearchMode 0...Forward match search 1...Exact match priority search
     /// - Returns: NOALine Array
+    @available(iOS , introduced: 2.0)
+    public func searchLineConnectTo (station: String, searchMode mode: Int) -> [NOALine]? {
+        return NOADataGetter.share.searchStationConnectionLines(_:station, mode:mode)
+    }
+    
+    /// Search the name of the route to be connected at the station
+    ///
+    /// - Parameters:
+    ///   - keyword: Station name you want to search
+    ///   - mode: SearchMode 0...Forward match search 1...Exact match priority search
+    /// - Returns: NOALine Array
+    @available(iOS , obsoleted: 2.0)
     public func searchTheNameOfTheLineConnectingToTheStation (_ keyword: String, mode: Int) -> [NOALine]? {
         return NOADataGetter.share.searchStationConnectionLines(_:keyword, mode:mode)
     }
